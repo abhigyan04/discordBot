@@ -69,12 +69,12 @@ client.on('message', message =>{
 });
 
 client.on('voiceStateUpdate', (oldMember, newMember) => {
-    const amongUSVC = client.channels.cache.get('755122373069635766');
+    const amongUSVC = client.channels.cache.get('Enter your voice channels ID here');
     const newUserChannel = newMember.channelID;
     const oldUserChannel = oldMember.channelID;
-    const amongUsTC = client.channels.cache.get('759169450800578562')
+    const amongUsTC = client.channels.cache.get('Enter your text channels ID here')
      
-    if(newUserChannel === '755122373069635766' && oldUserChannel !== '755122373069635766' && amongUSVC.members.size === 1){
+    if(newUserChannel === 'Enter your voice channels ID here' && oldUserChannel !== 'Enter your voice channels ID here' && amongUSVC.members.size === 1){
         amongUsTC.send('Hey! I see you have joined the Among Us VC');
         amongUsTC.send('Use me to moderate your games efficiently');
         amongUsTC.send('Type $commands to see the list of commands');
