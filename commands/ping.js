@@ -2,7 +2,7 @@ module.exports = {
     name: 'ping',
     description: 'This is a ping command',
     execute(message, args){
-        if(message.member.roles.cache.has('759194564325670912')){
+        if(message.member.roles.cache.has('Enter the role ID here')){
             message.channel.send('Pong!');
         }
         else{
