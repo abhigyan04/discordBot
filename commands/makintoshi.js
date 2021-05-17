@@ -1,6 +1,6 @@
 module.exports = {
     name: 'makintoshi',
-    description: 'This is a test command',
+    description: 'This is an echo command',
     execute(message, args){
         if(message.member.roles.cache.has('759194564325670912')){
             message.channel.send('');
