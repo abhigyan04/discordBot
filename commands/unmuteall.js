@@ -6,9 +6,9 @@ module.exports = {
     name: 'unmuteall',
     description: 'This is an unmute all command',
     execute(message, args){
-        if(message.member.roles.cache.has('759194564325670912')){
-            const amongUSVC = client.channels.cache.get('755122373069635766');
-            if(message.member.voice.channel.id != '755122373069635766'){
+        if(message.member.roles.cache.has('Enter the role ID here')){
+            const amongUSVC = client.channels.cache.get('Enter the voice channels ID here');
+            if(message.member.voice.channel.id != 'Enter the voice channels ID here'){
                 message.channel.send('You are not in the Among Us VC');
             }
             else{
