@@ -83,4 +83,4 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 });
 
 
-client.login('NzU5MTgwMjg0MTE2NzI5ODU2.X25vvA.F3Jd6epNONSUzTAoL28azaBaNCo');
+client.login('Enter your bots token here which can be found on your discord developer portal.');
